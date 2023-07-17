@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "types": ["cypress", "node"],
+        "baseUrl": ".",
+        "paths": {
+            "@pages/*" : ["./cypress/support/pages/*"],
+            "@fixture/*": ["./cypress/fixtures/*"],
+            "@commands.js": ["./cypress/support/commands.js"]
+        }
+    }
+}
